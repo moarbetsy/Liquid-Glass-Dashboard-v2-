@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Utility bridge to index.html theme */
+.glass {
+  @apply rounded-xl border border-white/20 shadow-glass bg-white/5;
+}
+.glass-hover {
+  @apply transition-colors duration-200;
+}
+.btn {
+  @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg font-medium border border-white/20 hover:border-accent/60 transition-colors;
+}
+.btn-primary {
+  @apply btn text-slate-900;
+}
+.btn-ghost {
+  @apply btn bg-white/0 hover:bg-white/5;
+}
+.input {
+  @apply w-full rounded-lg border border-white/20 bg-white/5 px-3 py-2 outline-none placeholder-white/40 text-white focus:border-accent/70;
+}
+.select { @apply input pr-8; }
+.label { @apply text-sm text-white/70; }
+.badge { @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs border border-white/20; }
+

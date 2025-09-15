@@ -1,0 +1,1 @@
+## 2025-09-13\n- Initial v2 buildless Preact + HTM app.\n- POS, Orders, Clients, Products, Expenses, Settings pages.\n- Liquid‑glass styling, responsive grid.\n
